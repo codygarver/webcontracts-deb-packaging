@@ -1,0 +1,26 @@
+Source: webcontracts
+Section: misc
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), cmake (>= 2.6), valac (>= 0.14) | valac-0.14, libpantheon-dev, libjson-glib-dev, libgranite-dev, librest-dev (>= 0.7), libwebkitgtk-3.0-dev
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/webcontracts
+#Vcs-Git: git://git.debian.org/collab-maint/webcontracts.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/webcontracts.git;a=summary
+
+Package: webcontracts
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Standalone Contracts for Web Services
+ Collection of scripts to be used with Contractor and various online services.
+
+Package: webcontracts-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: webcontracts (= ${binary:Version}), ${misc:Depends}
+Enhances: webcontracts
+Description: Standalone Contracts for Web Services (debugging symbols)
+ Collection of scripts to be used with Contractor and various online services.
+ .
+ This package contains debugging symbols for webcontracts.
