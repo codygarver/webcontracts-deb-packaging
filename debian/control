@@ -2,7 +2,7 @@ Source: webcontracts
 Section: misc
 Priority: optional
 Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), cmake (>= 2.6), valac (>= 0.14) | valac-0.14, libpantheon-dev, libjson-glib-dev, libgranite-dev, librest-dev (>= 0.7), libwebkitgtk-3.0-dev, libsoup-gnome2.4-dev
+Build-Depends: debhelper (>= 8.0.0), cmake (>= 2.6), valac-0.16 | valac (>= 0.16), libpantheon-dev, libjson-glib-dev, libgranite-dev, librest-dev (>= 0.7), libwebkitgtk-3.0-dev, libsoup-gnome2.4-dev
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/webcontracts
 #Vcs-Git: git://git.debian.org/collab-maint/webcontracts.git
