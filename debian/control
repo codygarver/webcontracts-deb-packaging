@@ -10,7 +10,7 @@ Homepage: https://launchpad.net/webcontracts
 
 Package: webcontracts
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl
 Description: Standalone Contracts for Web Services
  Collection of scripts to be used with Contractor and various online services.
 
