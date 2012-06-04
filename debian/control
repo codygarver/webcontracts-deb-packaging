@@ -2,15 +2,21 @@ Source: webcontracts
 Section: misc
 Priority: optional
 Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), cmake (>= 2.6), valac-0.16 | valac (>= 0.16), libpantheon-dev, libjson-glib-dev, libgranite-dev, librest-dev (>= 0.7), libwebkitgtk-3.0-dev, libsoup-gnome2.4-dev
+Build-Depends: cmake (>= 2.6),
+               debhelper (>= 8.0.0),
+               libgranite-dev,
+               libjson-glib-dev,
+               libpantheon-dev,
+               librest-dev (>= 0.7),
+               libsoup-gnome2.4-dev,
+               libwebkitgtk-3.0-dev,
+               valac-0.16 | valac (>= 0.16)
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/webcontracts
-#Vcs-Git: git://git.debian.org/collab-maint/webcontracts.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/webcontracts.git;a=summary
 
 Package: webcontracts
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, curl
+Depends: curl, ${misc:Depends}, ${shlibs:Depends}
 Description: Standalone Contracts for Web Services
  Collection of scripts to be used with Contractor and various online services.
 
