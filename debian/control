@@ -17,6 +17,7 @@ Homepage: https://launchpad.net/webcontracts
 Package: webcontracts
 Architecture: any
 Depends: curl, ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6)
 Description: Standalone Contracts for Web Services
  Collection of scripts to be used with Contractor and various online services.
 
@@ -25,6 +26,7 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends: webcontracts (= ${binary:Version}), ${misc:Depends}
+Pre-Depends: dpkg (>= 1.15.6)
 Enhances: webcontracts
 Description: Standalone Contracts for Web Services (debugging symbols)
  Collection of scripts to be used with Contractor and various online services.
