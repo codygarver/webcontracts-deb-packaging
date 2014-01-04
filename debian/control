@@ -10,7 +10,7 @@ Build-Depends: cmake (>= 2.6),
                librest-dev (>= 0.7),
                libsoup-gnome2.4-dev,
                libwebkitgtk-3.0-dev,
-               valac-0.16 | valac (>= 0.16)
+               valac (>= 0.16)
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/webcontracts
 
